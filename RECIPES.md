@@ -13,6 +13,7 @@ Additional recipes can be found on the [Main Recipes Repository](https://github.
 | [monsieurbiz/sylius-media-manager-plugin](https://packagist.org/packages/monsieurbiz/sylius-media-manager-plugin) | [1.0](monsieurbiz/sylius-media-manager-plugin/1.0) |
 | [monsieurbiz/sylius-menu-plugin](https://packagist.org/packages/monsieurbiz/sylius-menu-plugin) | [1.0](monsieurbiz/sylius-menu-plugin/1.0) |
 | [monsieurbiz/sylius-no-commerce-plugin](https://packagist.org/packages/monsieurbiz/sylius-no-commerce-plugin) | [1.0](monsieurbiz/sylius-no-commerce-plugin/1.0) |
+| [monsieurbiz/sylius-order-history-plugin](https://packagist.org/packages/monsieurbiz/sylius-order-history-plugin) | [1.0](monsieurbiz/sylius-order-history-plugin/1.0) |
 | [monsieurbiz/sylius-rich-editor-plugin](https://packagist.org/packages/monsieurbiz/sylius-rich-editor-plugin) | [2.0](monsieurbiz/sylius-rich-editor-plugin/2.0) |
 | [monsieurbiz/sylius-sales-reports-plugin](https://packagist.org/packages/monsieurbiz/sylius-sales-reports-plugin) | [1.0](monsieurbiz/sylius-sales-reports-plugin/1.0) |
 | [monsieurbiz/sylius-settings-plugin](https://packagist.org/packages/monsieurbiz/sylius-settings-plugin) | [1.0](monsieurbiz/sylius-settings-plugin/1.0) |
