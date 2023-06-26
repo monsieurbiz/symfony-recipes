@@ -1,0 +1,35 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-contact-request-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusContactRequestPlugin\\MonsieurBizSyliusContactRequestPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_sylius_contact_request_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "  - { resource: \"@MonsieurBizSyliusContactRequestPlugin/Resources/config/config.yaml\" }",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/monsieurbiz_sylius_contact_request_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    resource: '@MonsieurBizSyliusContactRequestPlugin/Resources/config/routes.yaml'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "415984b8ed967aef65e601450c2104e45146c801"
+        }
+    }
+}
