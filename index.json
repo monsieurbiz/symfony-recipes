@@ -11,6 +11,10 @@
             "1.0",
             "1.0-dev"
         ],
+        "monsieurbiz/sylius-anti-spam-plugin": [
+            "1.0",
+            "1.0-dev"
+        ],
         "monsieurbiz/sylius-cms-page-plugin": [
             "1.0"
         ],

@@ -1,0 +1,41 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-anti-spam-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusAntiSpamPlugin\\MonsieurBizSyliusAntiSpamPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_sylius_anti_spam_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    - { resource: \"@MonsieurBizSyliusAntiSpamPlugin/Resources/config/config.yaml\" }",
+                        "",
+                        "services:",
+                        "    # Add the \"monsieurbiz_anti_spam.quarantineable\" tag on the quarantineable entity (not autoconfigure the entity\u2026)",
+                        "    App\\Entity\\Customer\\Customer:",
+                        "        tags: ['monsieurbiz_anti_spam.quarantineable']",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/monsieurbiz_sylius_anti_spam_plugin.yaml": {
+                    "contents": [
+                        "monsieurbiz_sylius_anti_spam_admin:",
+                        "    resource: \"@MonsieurBizSyliusAntiSpamPlugin/Resources/config/routes/admin.yaml\"",
+                        "    prefix: /%sylius_admin.path_name%",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "af1c1882e7e190aa8437cfa060de0769e46cba77"
+        }
+    }
+}
