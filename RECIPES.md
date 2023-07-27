@@ -18,5 +18,6 @@ Additional recipes can be found on the [Main Recipes Repository](https://github.
 | [monsieurbiz/sylius-order-history-plugin](https://packagist.org/packages/monsieurbiz/sylius-order-history-plugin) | [1.0](monsieurbiz/sylius-order-history-plugin/1.0) |
 | [monsieurbiz/sylius-rich-editor-plugin](https://packagist.org/packages/monsieurbiz/sylius-rich-editor-plugin) | [2.0](monsieurbiz/sylius-rich-editor-plugin/2.0) |
 | [monsieurbiz/sylius-sales-reports-plugin](https://packagist.org/packages/monsieurbiz/sylius-sales-reports-plugin) | [1.0](monsieurbiz/sylius-sales-reports-plugin/1.0) |
+| [monsieurbiz/sylius-search-plugin](https://packagist.org/packages/monsieurbiz/sylius-search-plugin) | [2.0](monsieurbiz/sylius-search-plugin/2.0) |
 | [monsieurbiz/sylius-settings-plugin](https://packagist.org/packages/monsieurbiz/sylius-settings-plugin) | [1.0](monsieurbiz/sylius-settings-plugin/1.0) |
 | [monsieurbiz/sylius-shipping-slot-plugin](https://packagist.org/packages/monsieurbiz/sylius-shipping-slot-plugin) | [1.0](monsieurbiz/sylius-shipping-slot-plugin/1.0) |
