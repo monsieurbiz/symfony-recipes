@@ -1,0 +1,27 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-dashboard-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusDashboardPlugin\\MonsieurBizSyliusDashboardPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_dashboard_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    - { resource: \"@MonsieurBizSyliusDashboardPlugin/Resources/config/config.yaml\" }",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "82f5d4eb10835f3fbeae8407344c15b413f590d2"
+        }
+    }
+}
