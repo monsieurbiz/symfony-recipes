@@ -1,0 +1,9 @@
+webpack_encore:
+    builds:
+        sylius-tailwind-theme: '%kernel.project_dir%/public/build/themes/sylius-tailwind'
+
+framework:
+    assets:
+        packages:
+            sylius-tailwind-theme:
+                json_manifest_path: '%kernel.project_dir%/public/build/themes/sylius-tailwind/manifest.json'
