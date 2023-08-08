@@ -1,0 +1,29 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-tailwind-theme": {
+            "manifest": {
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_sylius_tailwind_theme.yaml": {
+                    "contents": [
+                        "webpack_encore:",
+                        "    builds:",
+                        "        sylius-tailwind-theme: '%kernel.project_dir%/public/build/themes/sylius-tailwind'",
+                        "",
+                        "framework:",
+                        "    assets:",
+                        "        packages:",
+                        "            sylius-tailwind-theme:",
+                        "                json_manifest_path: '%kernel.project_dir%/public/build/themes/sylius-tailwind/manifest.json'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "8df070b37204827bc1f50f72bdb67c28f46fb321"
+        }
+    }
+}

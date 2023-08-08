@@ -59,6 +59,9 @@
         ],
         "monsieurbiz/sylius-shipping-slot-plugin": [
             "1.0"
+        ],
+        "monsieurbiz/sylius-tailwind-theme": [
+            "1.0-dev"
         ]
     },
     "recipe-conflicts": [],
