@@ -1,5 +1,13 @@
 {
     "copy-from-recipe": {
         "config/": "%CONFIG_DIR%/"
-    }
+    },
+    "add-lines": [
+        {
+            "file": "webpack.config.js",
+            "content": "\n\nconst syliusTailwindThemeConfig = require('./vendor/monsieurbiz/sylius-tailwind-theme/webpack.config');\n",
+            "position": "after_target",
+            "target": "appAdminConfig.name = 'app.admin';"
+        }
+    ]
 }
