@@ -5,7 +5,7 @@
     "add-lines": [
         {
             "file": "webpack.config.js",
-            "content": "\n\nconst syliusTailwindThemeConfig = require('./vendor/monsieurbiz/sylius-tailwind-theme/webpack.config');\n",
+            "content": "\nconst syliusTailwindThemeConfig = require('./vendor/monsieurbiz/sylius-tailwind-theme/webpack.config');",
             "position": "after_target",
             "target": "appAdminConfig.name = 'app.admin';"
         }
