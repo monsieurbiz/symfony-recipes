@@ -5,9 +5,9 @@
     "add-lines": [
         {
             "file": "webpack.config.js",
-            "content": "\nconst syliusTailwindThemeConfig = require('./vendor/monsieurbiz/sylius-tailwind-theme/webpack.config');",
+            "content": "// Tailwind Theme by Monsieur Biz\nmodule.exports.push(require('./vendor/monsieurbiz/sylius-tailwind-theme/webpack.config'));",
             "position": "after_target",
-            "target": "appAdminConfig.name = 'app.admin';"
+            "target": "module.exports = [shopConfig, adminConfig, appShopConfig, appAdminConfig];"
         }
     ]
 }
