@@ -1,0 +1,3 @@
+# Imported in sylius_shop.yaml to override sylius routes
+#imports:
+#    resource: '@MonsieurBizSyliusB2bPlugin/Resources/config/routes.yaml'
