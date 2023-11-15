@@ -1,0 +1,36 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-b2b-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusB2bPlugin\\MonsieurBizSyliusB2bPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_sylius_b2b_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    resource: '@MonsieurBizSyliusB2bPlugin/Resources/config/config.yaml'",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/monsieurbiz_sylius_b2b_plugin.yaml": {
+                    "contents": [
+                        "# Imported in sylius_shop.yaml to override sylius routes",
+                        "#imports:",
+                        "#    resource: '@MonsieurBizSyliusB2bPlugin/Resources/config/routes.yaml'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "95b62822ac4f96a77fbc8fe09e06e9a38acd2f74"
+        }
+    }
+}
