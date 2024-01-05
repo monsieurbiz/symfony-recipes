@@ -1,2 +1,2 @@
 imports:
-    resource: '@MonsieurBizSyliusB2bPlugin/Resources/config/config.yaml'
+    - { resource: "@MonsieurBizSyliusB2bPlugin/Resources/config/config.yaml" }
