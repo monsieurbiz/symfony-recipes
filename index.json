@@ -18,6 +18,9 @@
         "monsieurbiz/sylius-b2b-plugin": [
             "1.0-dev"
         ],
+        "monsieurbiz/sylius-better-admin-plugin": [
+            "1.0"
+        ],
         "monsieurbiz/sylius-cms-page-plugin": [
             "1.0"
         ],

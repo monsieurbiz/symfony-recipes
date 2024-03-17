@@ -1,0 +1,32 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-better-admin-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusBetterAdminPlugin\\SyliusBetterAdminPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "copy-from-package": {
+                    "src/Resources/views/SyliusUiBundle/Security/_login.html.twig": "templates/SyliusUiBundle/Security/_login.html.twig",
+                    "src/Resources/views/SyliusAdminBundle/Layout/_logo.html.twig": "templates/SyliusAdminBundle/Layout/_logo.html.twig",
+                    "src/Resources/views/MonsieurBizSyliusAdminBetterLoginPlugin/Admin/Login/_javascript.html.twig": "templates/bundles/MonsieurBizSyliusAdminBetterLoginPlugin/Admin/Login/_javascript.html.twig"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_sylius_better_admin_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    resource: '@MonsieurBizSyliusBetterAdminPlugin/Resources/config/config.yaml'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "54de8a5dce287f5decd3b9ced5b21a4a1dd0cad2"
+        }
+    }
+}
