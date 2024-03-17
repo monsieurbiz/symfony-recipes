@@ -1,0 +1,39 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-markerio-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusMarkerioPlugin\\MonsieurBizSyliusMarkerioPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_sylius_markerio_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    resource: '@MonsieurBizSyliusMarkerioPlugin/Resources/config/config.yaml'",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/monsieurbiz_sylius_markerio_plugin.yaml": {
+                    "contents": [
+                        "monsieurbiz_markerio_shop:",
+                        "    resource: '@MonsieurBizSyliusMarkerioPlugin/Resources/config/routes/shop.yaml'",
+                        "    prefix: '/{_locale}'",
+                        "    requirements:",
+                        "        _locale: ^[A-Za-z]{2,4}(_([A-Za-z]{4}|[0-9]{3}))?(_([A-Za-z]{2}|[0-9]{3}))?$",
+                        "",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "8c10cf16f172ed5a02fb78e12dd9aa7949e64c14"
+        }
+    }
+}
