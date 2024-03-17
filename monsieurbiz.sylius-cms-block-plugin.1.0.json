@@ -1,0 +1,35 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-cms-block-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusCmsBlockPlugin\\SyliusCmsBlockPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_sylius_cms_block_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    resource: '@MonsieurBizSyliusCmsBlockPlugin/Resources/config/config.yaml'",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/monsieurbiz_sylius_cms_block_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "   resource: '@MonsieurBizSyliusCmsBlockPlugin/Resources/config/routes.yaml'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "e0bbc356426d75e1ca95e5643cca1db4dd21b6fc"
+        }
+    }
+}
