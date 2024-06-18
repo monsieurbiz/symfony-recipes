@@ -46,7 +46,8 @@
             "1.0"
         ],
         "monsieurbiz/sylius-menu-plugin": [
-            "1.0"
+            "1.0",
+            "1.3"
         ],
         "monsieurbiz/sylius-no-commerce-plugin": [
             "0.1",

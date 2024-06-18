@@ -16,6 +16,9 @@
                     "contents": [
                         "imports:",
                         "    - { resource: \"@MonsieurBizSyliusMenuPlugin/Resources/config/config.yaml\" }",
+                        "",
+                        "twig:",
+                        "    form_themes: ['@MonsieurBizSyliusMenuPlugin/Admin/Browser/Form/_theme.html.twig']",
                         ""
                     ],
                     "executable": false
@@ -30,7 +33,7 @@
                     "executable": false
                 }
             },
-            "ref": "dcad5d9a22b4bd7af3d5ff222f50519b4efad1b9"
+            "ref": "8f84ba5c798fa51b0e293824880f3b6298407346"
         }
     }
 }
