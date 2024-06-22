@@ -1,5 +1,8 @@
 {
-    "aliases": [],
+    "aliases": {
+        "sylius-cms": "monsieurbiz/sylius-cms",
+        "syliuscms": "monsieurbiz/sylius-cms"
+    },
     "recipes": {
         "monsieurbiz/sylius-admin-better-login-plugin": [
             "1.0"
