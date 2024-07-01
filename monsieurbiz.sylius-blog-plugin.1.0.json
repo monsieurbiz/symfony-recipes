@@ -1,0 +1,35 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-blog-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusBlogPlugin\\SyliusBlogPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_sylius_blog_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    resource: '@MonsieurBizSyliusBlogPlugin/Resources/config/config.yaml'",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/monsieurbiz_sylius_blog_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "   resource: '@MonsieurBizSyliusBlogPlugin/Resources/config/routes.yaml'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "fc21be136aaca798c7ff56b6860cbd22183d0806"
+        }
+    }
+}
