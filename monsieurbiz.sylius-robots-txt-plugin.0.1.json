@@ -1,0 +1,38 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-robots-txt-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusRobotsTxtPlugin\\MonsieurBizSyliusRobotsTxtPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_sylius_robots_txt_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    resource: '@MonsieurBizSyliusRobotsTxtPlugin/Resources/config/config.yaml'",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/monsieurbiz_sylius_robots_txt_plugin.yaml": {
+                    "contents": [
+                        "monsieurbiz_robots_txt_render:",
+                        "    path: /robots.txt",
+                        "    methods: [ GET ]",
+                        "    defaults:",
+                        "        _controller: MonsieurBiz\\SyliusRobotsTxtPlugin\\Controller\\RenderController",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "18ea797a145de45c03a0152b5ec0434c57aefb74"
+        }
+    }
+}
