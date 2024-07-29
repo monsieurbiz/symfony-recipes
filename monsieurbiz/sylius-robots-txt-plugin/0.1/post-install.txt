@@ -1,0 +1,2 @@
+  * Remove your current `robot.txt` file to let the plugin's controller render the content
+    <comment>rm public/robots.txt</comment>
