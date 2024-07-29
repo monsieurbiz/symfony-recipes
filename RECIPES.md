@@ -20,6 +20,7 @@ Additional recipes can be found on the [Main Recipes Repository](https://github.
 | [monsieurbiz/sylius-markerio-plugin](https://packagist.org/packages/monsieurbiz/sylius-markerio-plugin) | [1.0](monsieurbiz/sylius-markerio-plugin/1.0) |  |
 | [monsieurbiz/sylius-media-manager-plugin](https://packagist.org/packages/monsieurbiz/sylius-media-manager-plugin) | [1.0](monsieurbiz/sylius-media-manager-plugin/1.0) |  |
 | [monsieurbiz/sylius-menu-plugin](https://packagist.org/packages/monsieurbiz/sylius-menu-plugin) | [1.3](monsieurbiz/sylius-menu-plugin/1.3) |  |
+| [monsieurbiz/sylius-messenger-admin-plugin](https://packagist.org/packages/monsieurbiz/sylius-messenger-admin-plugin) | [0.1](monsieurbiz/sylius-messenger-admin-plugin/0.1) |  |
 | [monsieurbiz/sylius-no-commerce-plugin](https://packagist.org/packages/monsieurbiz/sylius-no-commerce-plugin) | [1.0](monsieurbiz/sylius-no-commerce-plugin/1.0) |  |
 | [monsieurbiz/sylius-order-history-plugin](https://packagist.org/packages/monsieurbiz/sylius-order-history-plugin) | [1.0](monsieurbiz/sylius-order-history-plugin/1.0) |  |
 | [monsieurbiz/sylius-rich-editor-plugin](https://packagist.org/packages/monsieurbiz/sylius-rich-editor-plugin) | [2.0](monsieurbiz/sylius-rich-editor-plugin/2.0) |  |

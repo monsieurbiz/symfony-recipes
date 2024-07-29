@@ -56,6 +56,9 @@
             "1.0",
             "1.3"
         ],
+        "monsieurbiz/sylius-messenger-admin-plugin": [
+            "0.1"
+        ],
         "monsieurbiz/sylius-no-commerce-plugin": [
             "0.1",
             "1.0"
