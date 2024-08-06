@@ -1,5 +1,5 @@
 monsieurbiz_case_study_shop:
-    resource: '@MonsieurBizSyliusCaseStudyPlugin/Resources/config/routes/admin.yaml'
+    resource: '@MonsieurBizSyliusCaseStudyPlugin/Resources/config/routes/shop.yaml'
     prefix: /{_locale}
     requirements:
         _locale: ^[a-z]{2}(?:_[A-Z]{2})?$
