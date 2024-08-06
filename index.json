@@ -28,6 +28,9 @@
             "0.1",
             "1.0"
         ],
+        "monsieurbiz/sylius-case-study-plugin": [
+            "0.1"
+        ],
         "monsieurbiz/sylius-cms-block-plugin": [
             "1.0"
         ],
