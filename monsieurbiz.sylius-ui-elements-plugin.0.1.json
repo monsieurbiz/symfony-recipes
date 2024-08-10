@@ -1,0 +1,13 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-ui-elements-plugin": {
+            "manifest": {
+                "copy-from-package": {
+                    "src/Resources/views/Wireframe/*": "templates/bundles/MonsieurBizSyliusRichEditorPlugin/Wireframe/*"
+                }
+            },
+            "files": [],
+            "ref": "9610c26349a1f43581e0d656eda4d363cbf7c260"
+        }
+    }
+}
