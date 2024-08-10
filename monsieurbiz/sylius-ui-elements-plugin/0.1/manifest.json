@@ -8,7 +8,7 @@
         "config/": "%CONFIG_DIR%/"
     },
     "copy-from-package": {
-        "src/Resources/views/Wireframe/customer-quote.svg.twig": "templates/bundles/MonsieurBizSyliusRichEditorPlugin/Wireframe/customer-quote.svg.twig",
+        "src/Resources/views/Wireframe/advanced-quote.svg.twig": "templates/bundles/MonsieurBizSyliusRichEditorPlugin/Wireframe/advanced-quote.svg.twig",
         "src/Resources/views/Wireframe/figures.svg.twig": "templates/bundles/MonsieurBizSyliusRichEditorPlugin/Wireframe/figures.svg.twig",
         "src/Resources/views/Wireframe/hero.svg.twig": "templates/bundles/MonsieurBizSyliusRichEditorPlugin/Wireframe/hero.svg.twig",
         "src/Resources/views/Wireframe/links.svg.twig": "templates/bundles/MonsieurBizSyliusRichEditorPlugin/Wireframe/links.svg.twig",
