@@ -4,6 +4,9 @@
             "all"
         ]
     },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
     "copy-from-package": {
         "src/Resources/views/Wireframe/customer-quote.svg.twig": "templates/bundles/MonsieurBizSyliusRichEditorPlugin/Wireframe/customer-quote.svg.twig",
         "src/Resources/views/Wireframe/figures.svg.twig": "templates/bundles/MonsieurBizSyliusRichEditorPlugin/Wireframe/figures.svg.twig",
