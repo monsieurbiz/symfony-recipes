@@ -1,0 +1,5 @@
+{
+    "copy-from-package": {
+        "src/Resources/views/Wireframe/*": "templates/bundles/MonsieurBizSyliusRichEditorPlugin/Wireframe/*"
+      }
+}
