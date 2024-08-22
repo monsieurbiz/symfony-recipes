@@ -14,5 +14,5 @@
         "src/Resources/views/Wireframe/links.svg.twig": "templates/bundles/MonsieurBizSyliusRichEditorPlugin/Wireframe/links.svg.twig",
         "src/Resources/views/Wireframe/logos.svg.twig": "templates/bundles/MonsieurBizSyliusRichEditorPlugin/Wireframe/logos.svg.twig",
         "src/Resources/views/Wireframe/text-with-image.svg.twig": "templates/bundles/MonsieurBizSyliusRichEditorPlugin/Wireframe/text-with-image.svg.twig"
-      }
+    }
 }
