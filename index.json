@@ -22,7 +22,8 @@
             "1.0-dev"
         ],
         "monsieurbiz/sylius-better-admin-plugin": [
-            "1.0"
+            "1.0",
+            "1.1"
         ],
         "monsieurbiz/sylius-blog-plugin": [
             "0.1",
