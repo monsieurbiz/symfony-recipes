@@ -71,8 +71,7 @@
         "monsieurbiz/sylius-rich-editor-plugin": [
             "1.0",
             "2.0",
-            "2.9",
-            "2.9-dev"
+            "2.9"
         ],
         "monsieurbiz/sylius-robots-txt-plugin": [
             "0.1"
