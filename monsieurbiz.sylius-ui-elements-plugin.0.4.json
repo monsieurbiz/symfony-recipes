@@ -1,0 +1,30 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-ui-elements-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusUiElementsPlugin\\MonsieurBizSyliusUiElementsPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "copy-from-package": {
+                    "src/Resources/views/Wireframe/": "templates/bundles/MonsieurBizSyliusRichEditorPlugin/Wireframe/"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_ui_elements_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    - { resource: \"@MonsieurBizSyliusUiElementsPlugin/Resources/config/config.yaml\" }",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "f30667abcdfe8273dd4f93185e7d1006a80a7554"
+        }
+    }
+}
