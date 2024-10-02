@@ -1,0 +1,27 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-scripts-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusScriptsPlugin\\MonsieurBizSyliusScriptsPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_sylius_scripts_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    resource: '@MonsieurBizSyliusScriptsPlugin/Resources/config/config.yaml'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "759bf561cf4ccca9d6560a87b7af5b2864c2e247"
+        }
+    }
+}

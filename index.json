@@ -79,6 +79,10 @@
         "monsieurbiz/sylius-sales-reports-plugin": [
             "1.0"
         ],
+        "monsieurbiz/sylius-scripts-plugin": [
+            "1.0",
+            "1.0-dev"
+        ],
         "monsieurbiz/sylius-search-plugin": [
             "1.0",
             "2.0"
