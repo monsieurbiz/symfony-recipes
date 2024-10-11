@@ -1,0 +1,15 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-cms-page-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusCmsPagePlugin\\MonsieurBizSyliusCmsPagePlugin": [
+                        "all"
+                    ]
+                }
+            },
+            "files": [],
+            "ref": "66c5a36a92eb2c46d2fb579b548924af531829d7"
+        }
+    }
+}
