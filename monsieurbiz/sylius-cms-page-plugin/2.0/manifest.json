@@ -1,0 +1,7 @@
+{
+    "bundles": {
+        "MonsieurBiz\\SyliusCmsPagePlugin\\MonsieurBizSyliusCmsPagePlugin": [
+            "all"
+        ]
+    }
+}
