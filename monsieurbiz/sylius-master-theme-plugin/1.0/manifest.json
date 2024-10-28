@@ -1,0 +1,12 @@
+{
+    "bundles": {
+        "MonsieurBiz\\SyliusMasterThemePlugin\\MonsieurBizSyliusMasterThemePlugin": ["all"]
+    },
+    "copy-from-recipe": {
+        "assets/": "assets/",
+        "config/": "%CONFIG_DIR%/"
+    },
+    "composer-scripts": {
+        "tailwind:build": "symfony-cmd"
+    }
+}
