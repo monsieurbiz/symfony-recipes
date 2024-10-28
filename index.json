@@ -52,6 +52,9 @@
         "monsieurbiz/sylius-markerio-plugin": [
             "1.0"
         ],
+        "monsieurbiz/sylius-master-theme-plugin": [
+            "1.0"
+        ],
         "monsieurbiz/sylius-media-manager-plugin": [
             "1.0"
         ],

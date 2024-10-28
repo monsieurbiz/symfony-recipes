@@ -1,0 +1,23 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-master-theme-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusMasterThemePlugin\\MonsieurBizSyliusMasterThemePlugin": [
+                        "all"
+                    ]
+                },
+                "add-lines": [
+                    {
+                        "file": "composer.json",
+                        "content": "\n            \"vendor/monsieurbiz/sylius-rich-editor-plugin/scripts/replace_intl_extension.php\": \"php-script\",\n",
+                        "position": "after_target",
+                        "target": "\"auto-scripts\": {"
+                    }
+                ]
+            },
+            "files": [],
+            "ref": "378478f1f83f16daeb4d7a56e3447eb730a63588"
+        }
+    }
+}
