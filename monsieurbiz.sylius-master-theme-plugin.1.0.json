@@ -9,15 +9,7 @@
                 },
                 "copy-from-recipe": {
                     "assets/": "assets/"
-                },
-                "add-lines": [
-                    {
-                        "file": "composer.json",
-                        "content": "\n            \"vendor/monsieurbiz/sylius-master-theme-plugin/scripts/replace_intl_extension.php\": \"php-script\",\n",
-                        "position": "after_target",
-                        "target": "\"auto-scripts\": {"
-                    }
-                ]
+                }
             },
             "files": {
                 "assets/bootstrap.js": {
@@ -61,7 +53,7 @@
                     "executable": false
                 }
             },
-            "ref": "b73718a41dd7913068460038279614f4aa4d8db9"
+            "ref": "93f76ce03e9cc69a5ca62bcb3cfbdd04431b0b05"
         }
     }
 }
