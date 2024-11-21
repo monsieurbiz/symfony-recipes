@@ -10,9 +10,6 @@
                 "copy-from-recipe": {
                     "assets/": "assets/",
                     "config/": "%CONFIG_DIR%/"
-                },
-                "composer-scripts": {
-                    "tailwind:build": "symfony-cmd"
                 }
             },
             "files": {
@@ -65,7 +62,7 @@
                     "executable": false
                 }
             },
-            "ref": "3b20ea7a31ac192c1b6bd714da13ba32cd5e95e7"
+            "ref": "53846e74176a5ef15d7a2f6fdd2403baabbac4b6"
         }
     }
 }
