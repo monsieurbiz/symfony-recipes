@@ -13,12 +13,6 @@
             "position": "after_target",
             "target": "'path' => 'master-theme.js',",
             "warn_if_missing": true
-        }, 
-        {
-            "file": "composer.json",
-            "content": "\n            \"vendor/monsieurbiz/sylius-master-theme-plugin/scripts/replace_intl_extension.php\": \"php-script\",\n",
-            "position": "after_target",
-            "target": "\"auto-scripts\": {"
         }
     ]
 }
