@@ -1,2 +1,7 @@
 imports:
     resource: '@MonsieurBizSyliusMasterThemePlugin/Resources/config/config.yaml'
+
+framework:
+    asset_mapper:
+        paths:
+            vendor/monsieurbiz/sylius-master-theme-plugin/assets: 'master-theme'
