@@ -66,17 +66,12 @@
                     "contents": [
                         "imports:",
                         "    resource: '@MonsieurBizSyliusMasterThemePlugin/Resources/config/config.yaml'",
-                        "",
-                        "framework:",
-                        "    asset_mapper:",
-                        "        paths:",
-                        "            vendor/monsieurbiz/sylius-master-theme-plugin/assets: 'master-theme'",
                         ""
                     ],
                     "executable": false
                 }
             },
-            "ref": "e220ea9dedbc7036293c0545b974c19240d6a437"
+            "ref": "0c92672c98038820d841bd406d292600c15f6ef6"
         }
     }
 }
