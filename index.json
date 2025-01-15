@@ -100,6 +100,9 @@
         "monsieurbiz/sylius-tailwind-theme": [
             "1.0-dev"
         ],
+        "monsieurbiz/sylius-theme-companion-plugin": [
+            "2.0"
+        ],
         "monsieurbiz/sylius-ui-elements-plugin": [
             "0.2",
             "0.4"

@@ -1,0 +1,59 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-theme-companion-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusThemeCompanionPlugin\\MonsieurBizSyliusThemeCompanionPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "assets/": "assets/"
+                }
+            },
+            "files": {
+                "assets/bootstrap.js": {
+                    "contents": [
+                        "// register any custom, 3rd party controllers here",
+                        "// app.register('some_controller_name', SomeImportedController);",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "assets/controllers.json": {
+                    "contents": [
+                        "{",
+                        "  \"controllers\": [],",
+                        "  \"entrypoints\": []",
+                        "}",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "assets/controllers/hello_controller.js": {
+                    "contents": [
+                        "import { Controller } from '@hotwired/stimulus';",
+                        "",
+                        "/*",
+                        " * This is an example Stimulus controller!",
+                        " *",
+                        " * Any element with a data-controller=\"hello\" attribute will cause",
+                        " * this controller to be executed. The name \"hello\" comes from the filename:",
+                        " * hello_controller.js -> \"hello\"",
+                        " *",
+                        " * Delete this file or adapt it for your use!",
+                        " */",
+                        "export default class extends Controller {",
+                        "  connect() {",
+                        "    this.element.textContent = 'Hello Stimulus! Edit me in assets/controllers/hello_controller.js';",
+                        "  }",
+                        "}",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "6b0ced4a3b0d109a1eb3bc3a4cfdf9fab799a1b3"
+        }
+    }
+}
