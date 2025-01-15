@@ -1,0 +1,8 @@
+{
+    "bundles": {
+        "MonsieurBiz\\SyliusThemeCompanionPlugin\\MonsieurBizSyliusThemeCompanionPlugin": ["all"]
+    },
+    "copy-from-recipe": {
+        "assets/": "assets/"
+    }
+}
