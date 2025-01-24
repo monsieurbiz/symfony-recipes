@@ -1,0 +1,35 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-advanced-promotion-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusAdvancedPromotionPlugin\\MonsieurBizSyliusAdvancedPromotionPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_sylius_advanced_promotion_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    resource: '@MonsieurBizSyliusAdvancedPromotionPlugin/Resources/config/config.yaml'",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/monsieurbiz_sylius_advanced_promotion_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "   resource: '@MonsieurBizSyliusAdvancedPromotionPlugin/Resources/config/routes.yaml'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "80f61d4b62613e21925e3d00fbd3c4c7bb3ad46b"
+        }
+    }
+}
