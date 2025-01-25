@@ -1,0 +1,4 @@
+when@dev:
+    monsieurbiz_theme_companion:
+        resource: '@MonsieurBizSyliusThemeCompanionPlugin/config/routing/theme.yaml'
+        prefix: /_theme
