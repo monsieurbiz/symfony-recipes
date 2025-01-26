@@ -57,14 +57,14 @@
                     "contents": [
                         "when@dev:",
                         "    monsieurbiz_theme_companion:",
-                        "        resource: '@MonsieurBizSyliusThemeCompanionPlugin/Resources/config/routing/theme.yaml'",
+                        "        resource: '@MonsieurBizSyliusThemeCompanionPlugin/config/routing/theme.yaml'",
                         "        prefix: /_theme",
                         ""
                     ],
                     "executable": false
                 }
             },
-            "ref": "8b5f8839ee64b58b680dc9a67ffd6dc531c1c89b"
+            "ref": "06e27de5e4ae517aeb0aa0691f7ee06892fe4ddf"
         }
     }
 }
