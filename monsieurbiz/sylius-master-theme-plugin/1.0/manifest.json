@@ -5,14 +5,5 @@
     "copy-from-recipe": {
         "assets/": "assets/",
         "config/": "%CONFIG_DIR%/"
-    },
-    "add-lines": [
-        {
-            "file": "importmap.php",
-            "content": "\n        'entrypoint' => true,\n",
-            "position": "after_target",
-            "target": "'path' => 'master-theme.js',",
-            "warn_if_missing": true
-        }
-    ]
+    }
 }
