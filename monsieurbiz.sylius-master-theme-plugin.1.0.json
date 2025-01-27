@@ -10,7 +10,16 @@
                 "copy-from-recipe": {
                     "assets/": "assets/",
                     "config/": "%CONFIG_DIR%/"
-                }
+                },
+                "add-lines": [
+                    {
+                        "file": "importmap.php",
+                        "content": "\n        'entrypoint' => true,\n",
+                        "position": "after_target",
+                        "target": "'path' => 'master-theme.js',",
+                        "warn_if_missing": true
+                    }
+                ]
             },
             "files": {
                 "assets/bootstrap.js": {
@@ -60,29 +69,9 @@
                         ""
                     ],
                     "executable": false
-                },
-                "config/packages/twig.yaml": {
-                    "contents": [
-                        "twig:",
-                        "    paths: ['%kernel.project_dir%/templates']",
-                        "    debug: '%kernel.debug%'",
-                        "    strict_variables: '%kernel.debug%'",
-                        "",
-                        "services:",
-                        "    _defaults:",
-                        "        public: false",
-                        "        autowire: true",
-                        "        autoconfigure: true",
-                        "",
-                        "when@test_cached:",
-                        "    twig:",
-                        "        strict_variables: true",
-                        ""
-                    ],
-                    "executable": false
                 }
             },
-            "ref": "daa50ff7d206dba492a8d47c14dd64253983bb08"
+            "ref": "0c92672c98038820d841bd406d292600c15f6ef6"
         }
     }
 }
