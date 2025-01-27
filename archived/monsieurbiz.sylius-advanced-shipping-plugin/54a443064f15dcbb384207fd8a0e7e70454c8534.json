@@ -1,0 +1,38 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-advanced-shipping-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusAdvancedShippinhPlugin\\MonsieurBizSyliusAdvancedShippingPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "copy-from-package": {
+                    "src/Resources/views/SyliusShopBundle/Checkout/SelectShipping/_choice.html.twig": "templates/bundles/SyliusShopBundle/Checkout/SelectShipping/_choice.html.twig"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_sylius_advanced_shipping_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    - { resource: \"@MonsieurBizSyliusAdvancedShippingPlugin/Resources/config/config.yaml\" }",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/monsieurbiz_sylius_advanced_shipping_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    resource: '@MonsieurBizSyliusAdvancedShippingPlugin/Resources/config/routes.yaml'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "54a443064f15dcbb384207fd8a0e7e70454c8534"
+        }
+    }
+}

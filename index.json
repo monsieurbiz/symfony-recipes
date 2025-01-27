@@ -13,6 +13,9 @@
         "monsieurbiz/sylius-advanced-promotion-plugin": [
             "1.0"
         ],
+        "monsieurbiz/sylius-advanced-shipping-plugin": [
+            "1.0"
+        ],
         "monsieurbiz/sylius-alert-message-plugin": [
             "1.0",
             "1.0-dev"
