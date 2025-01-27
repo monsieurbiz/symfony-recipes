@@ -1,6 +1,6 @@
 {
     "bundles": {
-        "MonsieurBiz\\SyliusAdvancedShippinhPlugin\\MonsieurBizSyliusAdvancedShippingPlugin": [
+        "MonsieurBiz\\SyliusAdvancedShippingPlugin\\MonsieurBizSyliusAdvancedShippingPlugin": [
             "all"
         ]
     },
