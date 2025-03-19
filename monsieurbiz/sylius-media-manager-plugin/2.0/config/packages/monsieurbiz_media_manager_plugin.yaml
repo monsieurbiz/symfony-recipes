@@ -3,11 +3,10 @@ imports:
 
 liip_imagine:
     loaders:
-        default:
+        sylius_image:
             filesystem:
                 data_root:
-                    - "%sylius_core.public_dir%/media/image"
                     - "%sylius_core.public_dir%/media" # Add media folder
 
 twig:
-    form_themes: ['@MonsieurBizSyliusMediaManagerPlugin/Admin/MediaManager/Form/_theme.html.twig']
+    form_themes: ['@MonsieurBizSyliusMediaManagerPlugin/form/_theme.html.twig']
