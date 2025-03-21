@@ -1,0 +1,53 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-rich-editor-plugin": {
+            "manifest": {
+                "bundles": {
+                    "Twig\\Extra\\TwigExtraBundle\\TwigExtraBundle": [
+                        "all"
+                    ],
+                    "MonsieurBiz\\SyliusRichEditorPlugin\\MonsieurBizSyliusRichEditorPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "add-lines": [
+                    {
+                        "file": "composer.json",
+                        "content": "\n            \"vendor/monsieurbiz/sylius-rich-editor-plugin/scripts/replace_twig_extra_extensions.php\": \"php-script\",\n",
+                        "position": "after_target",
+                        "target": "\"auto-scripts\": {"
+                    }
+                ],
+                "env": {
+                    "MONSIEURBIZ_SYLIUS_RICH_EDITOR_UPLOAD_DIR": "/media/rich-editor",
+                    "MONSIEURBIZ_SYLIUS_RICH_EDITOR_IMAGE_UPLOAD_DIR": "/media/image",
+                    "MONSIEURBIZ_SYLIUS_RICH_EDITOR_ENABLED_HIGHLIGHT_JS_SHOP": "false",
+                    "MONSIEURBIZ_SYLIUS_RICH_EDITOR_ENABLED_HIGHLIGHT_JS_THEME": "default"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_sylius_rich_editor_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    - { resource: \"@MonsieurBizSyliusRichEditorPlugin/Resources/config/config.yaml\" }",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/monsieurbiz_sylius_rich_editor_plugin.yaml": {
+                    "contents": [
+                        "monsieurbiz_richeditor_admin:",
+                        "    resource: \"@MonsieurBizSyliusRichEditorPlugin/Resources/config/routing/admin.yaml\"",
+                        "    prefix: /%sylius_admin.path_name%",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "e23be168b165799cc50ed29d3cde5e75bde03e8e"
+        }
+    }
+}
