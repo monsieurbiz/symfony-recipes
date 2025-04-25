@@ -1,0 +1,2 @@
+imports:
+    - { resource: "@MonsieurBizSyliusColishipPlugin/Resources/config/config.yaml" }
