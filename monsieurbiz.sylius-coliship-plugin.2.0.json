@@ -1,0 +1,39 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-coliship-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusColishipPlugin\\MonsieurBizSyliusColishipPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "copy-from-package": {
+                    "src/Resources/templates/": "templates/"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_coliship_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    - { resource: \"@MonsieurBizSyliusColishipPlugin/Resources/config/config.yaml\" }",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/monsieurbiz_coliship_plugin.yaml": {
+                    "contents": [
+                        "monsieurbiz_coliship_admin:",
+                        "    resource: \"@MonsieurBizSyliusColishipPlugin/Resources/config/routes/admin.yaml\"",
+                        "    prefix: /%sylius_admin.path_name%",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "11b00bfd5751b8b96fc926c402c2ff0bc8de0e18"
+        }
+    }
+}
