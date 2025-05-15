@@ -1,0 +1,51 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-homepage-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusHomepagePlugin\\MonsieurBizSyliusHomepagePlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_sylius_homepage_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    - { resource: \"@MonsieurBizSyliusHomepagePlugin/Resources/config/config.yaml\" }",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/monsieurbiz_sylius_homepage_plugin.yaml": {
+                    "contents": [
+                        "monsieurbiz_sylius_homepage_admin:",
+                        "    resource: \"@MonsieurBizSyliusHomepagePlugin/Resources/config/routes/admin.yaml\"",
+                        "    prefix: /%sylius_admin.path_name%",
+                        "",
+                        "monsieurbiz_sylius_homepage_homepage:",
+                        "    path: /{_locale}/",
+                        "    methods: [GET]",
+                        "    requirements:",
+                        "        _locale: ^[A-Za-z]{2,4}(_([A-Za-z]{4}|[0-9]{3}))?(_([A-Za-z]{2}|[0-9]{3}))?$",
+                        "    defaults:",
+                        "        _controller: monsieurbiz_homepage.controller.homepage::indexAction",
+                        "        _sylius:",
+                        "            template: '@MonsieurBizSyliusHomepagePlugin/shop/homepage/index.html.twig'",
+                        "            repository:",
+                        "                method: findOneByChannelAndLocale",
+                        "                arguments:",
+                        "                    - \"expr:service('sylius.context.channel').getChannel()\"",
+                        "                    - \"expr:service('sylius.context.locale').getLocaleCode()\"",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "0f2818b7d56608e2a2a02a8a51faa20d2759cde0"
+        }
+    }
+}
