@@ -28,10 +28,6 @@
                         "            filesystem:",
                         "                data_root:",
                         "                    - \"%sylius_core.public_dir%/media\" # Add media folder",
-                        "        monsieurbiz_sylius_rich_editor:",
-                        "            filesystem:",
-                        "                data_root:",
-                        "                    - \"%sylius_core.public_dir%/media\" # Add media folder",
                         "",
                         "twig:",
                         "    form_themes: ['@MonsieurBizSyliusMediaManagerPlugin/form/_theme.html.twig']",
@@ -40,7 +36,7 @@
                     "executable": false
                 }
             },
-            "ref": "828fd91717b8fec958eb2c65d414c3d716992af1"
+            "ref": "fe3a5fa39555dbd07e64d47f607067f1c457abf9"
         }
     }
 }
