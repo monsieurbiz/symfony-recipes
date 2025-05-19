@@ -6,10 +6,35 @@
                     "MonsieurBiz\\SyliusCmsPagePlugin\\MonsieurBizSyliusCmsPagePlugin": [
                         "all"
                     ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
                 }
             },
-            "files": [],
-            "ref": "66c5a36a92eb2c46d2fb579b548924af531829d7"
+            "files": {
+                "config/packages/monsieurbiz_sylius_cms_page_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    - { resource: \"@MonsieurBizSyliusCmsPagePlugin/Resources/config/config.yaml\" }",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/monsieurbiz_sylius_cms_page_plugin.yaml": {
+                    "contents": [
+                        "monsieurbiz_cms_page_admin:",
+                        "    resource: \"@MonsieurBizSyliusCmsPagePlugin/Resources/config/routing/admin.yaml\"",
+                        "    prefix: /%sylius_admin.path_name%",
+                        "",
+                        "monsieurbiz_cms_page_shop:",
+                        "    resource: \"@MonsieurBizSyliusCmsPagePlugin/Resources/config/routing/shop.yaml\"",
+                        "    prefix: /{_locale}",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "e01b794cd3e5223081fb548c75114c1e77e07f34"
         }
     }
 }
