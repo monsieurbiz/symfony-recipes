@@ -13,7 +13,7 @@ Additional recipes can be found on the [Main Recipes Repository](https://github.
 | [monsieurbiz/sylius-b2b-plugin](https://packagist.org/packages/monsieurbiz/sylius-b2b-plugin) | [1.0-dev](monsieurbiz/sylius-b2b-plugin/1.0-dev) |  |
 | [monsieurbiz/sylius-better-admin-plugin](https://packagist.org/packages/monsieurbiz/sylius-better-admin-plugin) | [1.1](monsieurbiz/sylius-better-admin-plugin/1.1) |  |
 | [monsieurbiz/sylius-blog-plugin](https://packagist.org/packages/monsieurbiz/sylius-blog-plugin) | [1.0](monsieurbiz/sylius-blog-plugin/1.0) |  |
-| [monsieurbiz/sylius-cms-block-plugin](https://packagist.org/packages/monsieurbiz/sylius-cms-block-plugin) | [1.0](monsieurbiz/sylius-cms-block-plugin/1.0) |  |
+| [monsieurbiz/sylius-cms-block-plugin](https://packagist.org/packages/monsieurbiz/sylius-cms-block-plugin) | [2.0](monsieurbiz/sylius-cms-block-plugin/2.0) |  |
 | [monsieurbiz/sylius-cms-page-plugin](https://packagist.org/packages/monsieurbiz/sylius-cms-page-plugin) | [2.0](monsieurbiz/sylius-cms-page-plugin/2.0) |  |
 | [monsieurbiz/sylius-coliship-plugin](https://packagist.org/packages/monsieurbiz/sylius-coliship-plugin) | [2.0](monsieurbiz/sylius-coliship-plugin/2.0) |  |
 | [monsieurbiz/sylius-contact-request-plugin](https://packagist.org/packages/monsieurbiz/sylius-contact-request-plugin) | [1.0](monsieurbiz/sylius-contact-request-plugin/1.0) |  |
