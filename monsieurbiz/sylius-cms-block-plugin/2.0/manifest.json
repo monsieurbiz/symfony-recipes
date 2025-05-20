@@ -1,0 +1,13 @@
+{
+    "bundles": {
+        "MonsieurBiz\\SyliusCmsBlockPlugin\\MonsieurBizSyliusCmsBlockPlugin": [
+            "all"
+        ]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "copy-from-package": {
+        "src/Resources/views/wireframe/": "templates/bundles/MonsieurBizSyliusRichEditorPlugin/Wireframe/"
+    }
+}
