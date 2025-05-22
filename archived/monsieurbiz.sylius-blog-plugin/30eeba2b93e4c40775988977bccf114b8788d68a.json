@@ -1,0 +1,40 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-blog-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusBlogPlugin\\MonsieurBizSyliusBlogPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "copy-from-package": {
+                    "src/Resources/views/wireframe/case-studies.svg.twig": "templates/bundles/MonsieurBizSyliusRichEditorPlugin/Wireframe/case-studies.svg.twig",
+                    "src/Resources/views/wireframe/articles-by-tags.svg.twig": "templates/bundles/MonsieurBizSyliusRichEditorPlugin/Wireframe/articles-by-tags.svg.twig",
+                    "src/Resources/views/wireframe/articles-selection.svg.twig": "templates/bundles/MonsieurBizSyliusRichEditorPlugin/Wireframe/articles-selection.svg.twig"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_sylius_blog_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    resource: '@MonsieurBizSyliusBlogPlugin/Resources/config/config.yaml'",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/monsieurbiz_sylius_blog_plugin.yaml": {
+                    "contents": [
+                        "monsieurbiz_blog_plugin:",
+                        "   resource: '@MonsieurBizSyliusBlogPlugin/Resources/config/routes.yaml'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "30eeba2b93e4c40775988977bccf114b8788d68a"
+        }
+    }
+}

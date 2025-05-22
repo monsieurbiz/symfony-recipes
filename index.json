@@ -34,7 +34,8 @@
         "monsieurbiz/sylius-blog-plugin": [
             "0.1",
             "0.2",
-            "1.0"
+            "1.0",
+            "2.0"
         ],
         "monsieurbiz/sylius-cms-block-plugin": [
             "1.0",
