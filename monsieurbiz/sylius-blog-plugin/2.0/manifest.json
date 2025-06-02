@@ -13,6 +13,6 @@
         "src/Resources/views/wireframe/articles-selection.svg.twig": "templates/bundles/MonsieurBizSyliusRichEditorPlugin/Wireframe/articles-selection.svg.twig"
     },
     "env": {
-        "MONSIEURBIZ_SYLIUS_BlOG_ENABLE_CASE_STUDIES": false
+        "MONSIEURBIZ_SYLIUS_BLOG_ENABLE_CASE_STUDIES": false
     }
 }
