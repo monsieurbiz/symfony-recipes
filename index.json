@@ -50,7 +50,8 @@
             "2.0"
         ],
         "monsieurbiz/sylius-contact-request-plugin": [
-            "1.0"
+            "1.0",
+            "2.0"
         ],
         "monsieurbiz/sylius-dashboard-plugin": [
             "1.0"

@@ -16,7 +16,7 @@ Additional recipes can be found on the [Main Recipes Repository](https://github.
 | [monsieurbiz/sylius-cms-block-plugin](https://packagist.org/packages/monsieurbiz/sylius-cms-block-plugin) | [2.0](monsieurbiz/sylius-cms-block-plugin/2.0) |  |
 | [monsieurbiz/sylius-cms-page-plugin](https://packagist.org/packages/monsieurbiz/sylius-cms-page-plugin) | [2.0](monsieurbiz/sylius-cms-page-plugin/2.0) |  |
 | [monsieurbiz/sylius-coliship-plugin](https://packagist.org/packages/monsieurbiz/sylius-coliship-plugin) | [2.0](monsieurbiz/sylius-coliship-plugin/2.0) |  |
-| [monsieurbiz/sylius-contact-request-plugin](https://packagist.org/packages/monsieurbiz/sylius-contact-request-plugin) | [1.0](monsieurbiz/sylius-contact-request-plugin/1.0) |  |
+| [monsieurbiz/sylius-contact-request-plugin](https://packagist.org/packages/monsieurbiz/sylius-contact-request-plugin) | [2.0](monsieurbiz/sylius-contact-request-plugin/2.0) |  |
 | [monsieurbiz/sylius-dashboard-plugin](https://packagist.org/packages/monsieurbiz/sylius-dashboard-plugin) | [1.0](monsieurbiz/sylius-dashboard-plugin/1.0) |  |
 | [monsieurbiz/sylius-homepage-plugin](https://packagist.org/packages/monsieurbiz/sylius-homepage-plugin) | [2.0](monsieurbiz/sylius-homepage-plugin/2.0) |  |
 | [monsieurbiz/sylius-markerio-plugin](https://packagist.org/packages/monsieurbiz/sylius-markerio-plugin) | [1.0](monsieurbiz/sylius-markerio-plugin/1.0) |  |

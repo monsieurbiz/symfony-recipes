@@ -1,0 +1,54 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-contact-request-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusContactRequestPlugin\\MonsieurBizSyliusContactRequestPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "copy-from-package": {
+                    "src/Resources/templates/": "templates/"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_sylius_contact_request_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "  - { resource: \"@MonsieurBizSyliusContactRequestPlugin/Resources/config/config.yaml\" }",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/monsieurbiz_sylius_contact_request_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    resource: '@MonsieurBizSyliusContactRequestPlugin/Resources/config/routes.yaml'",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/sylius_shop_contact_request_override.yaml": {
+                    "contents": [
+                        "sylius_shop_contact_request:",
+                        "    path: /{_locale}/contact",
+                        "    requirements:",
+                        "        _locale: ^[A-Za-z]{2,4}(_([A-Za-z]{4}|[0-9]{3}))?(_([A-Za-z]{2}|[0-9]{3}))?$",
+                        "    methods: [GET, POST]",
+                        "    defaults:",
+                        "        _controller: sylius_shop.controller.contact::requestAction",
+                        "        _sylius:",
+                        "            redirect: sylius_shop_homepage",
+                        "            template: '@MonsieurBizSyliusContactRequestPlugin/shop/contact/contact_request.html.twig'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "7f354db3cc748668dc6ce4eac44908e99dbd5d94"
+        }
+    }
+}
