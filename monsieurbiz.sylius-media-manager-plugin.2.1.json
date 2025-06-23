@@ -1,0 +1,52 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-media-manager-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusMediaManagerPlugin\\MonsieurBizSyliusMediaManagerPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "env": {
+                    "MONSIEURBIZ_SYLIUS_MEDIA_MANAGER_PUBLIC_FOLDER": "%kernel.project_dir%/public",
+                    "MONSIEURBIZ_SYLIUS_MEDIA_MANAGER_ROOT_FOLDER_FROM_PUBLIC": "media",
+                    "MONSIEURBIZ_SYLIUS_MEDIA_MANAGER_MAX_FILE_SIZE": "5M"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_media_manager_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    - { resource: \"@MonsieurBizSyliusMediaManagerPlugin/config/config.yaml\" }",
+                        "",
+                        "liip_imagine:",
+                        "    loaders:",
+                        "        sylius_image:",
+                        "            filesystem:",
+                        "                data_root:",
+                        "                    - \"%sylius_core.public_dir%/media\" # Add media folder",
+                        "",
+                        "twig:",
+                        "    form_themes: ['@MonsieurBizSyliusMediaManagerPlugin/form/_theme.html.twig']",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/monsieurbiz_media_manager_plugin.yaml": {
+                    "contents": [
+                        "monsieurbiz_sylius_media_manager_plugin_admin_live_component:",
+                        "    path: /%sylius_admin.path_name%/_monsieurbiz_sylius_media_manager_plugin_admin_live_component/{_live_component}/{_live_action}",
+                        "    defaults:",
+                        "        _live_action: 'get'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "90ce7231b4edecc381e1ae631b5cd11aebd7f750"
+        }
+    }
+}
