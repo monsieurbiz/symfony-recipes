@@ -1,0 +1,8 @@
+{
+    "bundles": {
+        "MonsieurBiz\\SyliusAdminBetterLoginPlugin\\MonsieurBizSyliusAdminBetterLoginPlugin": ["all"]
+    },
+    "copy-from-package": {
+        "templates/bundles/SyliusUiBundle/Security/_login.html.twig": "templates/bundles/SyliusUiBundle/Security/_login.html.twig"
+    }
+}
