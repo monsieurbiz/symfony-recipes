@@ -1,0 +1,14 @@
+{
+    "bundles": {
+        "MonsieurBiz\\SyliusBetterAdminPlugin\\MonsieurBizSyliusBetterAdminPlugin": [
+            "all"
+        ]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "copy-from-package": {
+      "templates/SyliusAdmin/security/_login.html.twig": "templates/bundles/SyliusAdmin/security/_login.html.twig",
+      "templates/SyliusAdmin/common/_logo.html.twig": "templates/bundles/SyliusAdmin/common/_logo.html.twig"
+    }
+}
