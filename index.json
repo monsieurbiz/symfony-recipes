@@ -8,7 +8,8 @@
             "1.0"
         ],
         "monsieurbiz/sylius-advanced-option-plugin": [
-            "1.0"
+            "1.0",
+            "2.0"
         ],
         "monsieurbiz/sylius-advanced-promotion-plugin": [
             "1.0"
@@ -29,7 +30,8 @@
         ],
         "monsieurbiz/sylius-better-admin-plugin": [
             "1.0",
-            "1.1"
+            "1.1",
+            "2.0"
         ],
         "monsieurbiz/sylius-blog-plugin": [
             "0.1",
@@ -99,14 +101,16 @@
         ],
         "monsieurbiz/sylius-scripts-plugin": [
             "1.0",
-            "1.0-dev"
+            "1.0-dev",
+            "2.0"
         ],
         "monsieurbiz/sylius-search-plugin": [
             "1.0",
             "2.0"
         ],
         "monsieurbiz/sylius-settings-plugin": [
-            "1.0"
+            "1.0",
+            "2.1"
         ],
         "monsieurbiz/sylius-shipping-slot-plugin": [
             "1.0"

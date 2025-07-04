@@ -1,0 +1,27 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-better-admin-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusBetterAdminPlugin\\MonsieurBizSyliusBetterAdminPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_sylius_better_admin_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    resource: '@MonsieurBizSyliusBetterAdminPlugin/config/config.yaml'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "bad78220bc8a7507f5c7f195f069508fbc28ed70"
+        }
+    }
+}
