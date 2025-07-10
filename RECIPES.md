@@ -31,7 +31,7 @@ Additional recipes can be found on the [Main Recipes Repository](https://github.
 | [monsieurbiz/sylius-sales-reports-plugin](https://packagist.org/packages/monsieurbiz/sylius-sales-reports-plugin) | [1.0](monsieurbiz/sylius-sales-reports-plugin/1.0) |  |
 | [monsieurbiz/sylius-scripts-plugin](https://packagist.org/packages/monsieurbiz/sylius-scripts-plugin) | [2.0](monsieurbiz/sylius-scripts-plugin/2.0) |  |
 | [monsieurbiz/sylius-search-plugin](https://packagist.org/packages/monsieurbiz/sylius-search-plugin) | [2.0](monsieurbiz/sylius-search-plugin/2.0) |  |
-| [monsieurbiz/sylius-settings-plugin](https://packagist.org/packages/monsieurbiz/sylius-settings-plugin) | [2.1](monsieurbiz/sylius-settings-plugin/2.1) |  |
+| [monsieurbiz/sylius-settings-plugin](https://packagist.org/packages/monsieurbiz/sylius-settings-plugin) | [1.0](monsieurbiz/sylius-settings-plugin/1.0) |  |
 | [monsieurbiz/sylius-shipping-slot-plugin](https://packagist.org/packages/monsieurbiz/sylius-shipping-slot-plugin) | [1.0](monsieurbiz/sylius-shipping-slot-plugin/1.0) |  |
 | [monsieurbiz/sylius-tailwind-theme](https://packagist.org/packages/monsieurbiz/sylius-tailwind-theme) | [1.0-dev](monsieurbiz/sylius-tailwind-theme/1.0-dev) |  |
 | [monsieurbiz/sylius-theme-companion-plugin](https://packagist.org/packages/monsieurbiz/sylius-theme-companion-plugin) | [2.0](monsieurbiz/sylius-theme-companion-plugin/2.0) |  |
