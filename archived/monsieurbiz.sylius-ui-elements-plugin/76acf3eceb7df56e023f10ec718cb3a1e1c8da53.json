@@ -1,0 +1,27 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-ui-elements-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusUiElementsPlugin\\MonsieurBizSyliusUiElementsPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_ui_elements_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    - { resource: \"@MonsieurBizSyliusUiElementsPlugin/config/config.yaml\" }",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "76acf3eceb7df56e023f10ec718cb3a1e1c8da53"
+        }
+    }
+}

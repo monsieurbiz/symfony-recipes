@@ -122,7 +122,8 @@
         ],
         "monsieurbiz/sylius-ui-elements-plugin": [
             "0.2",
-            "0.4"
+            "0.4",
+            "2.0"
         ]
     },
     "recipe-conflicts": [],

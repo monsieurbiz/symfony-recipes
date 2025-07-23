@@ -35,4 +35,4 @@ Additional recipes can be found on the [Main Recipes Repository](https://github.
 | [monsieurbiz/sylius-shipping-slot-plugin](https://packagist.org/packages/monsieurbiz/sylius-shipping-slot-plugin) | [1.0](monsieurbiz/sylius-shipping-slot-plugin/1.0) |  |
 | [monsieurbiz/sylius-tailwind-theme](https://packagist.org/packages/monsieurbiz/sylius-tailwind-theme) | [1.0-dev](monsieurbiz/sylius-tailwind-theme/1.0-dev) |  |
 | [monsieurbiz/sylius-theme-companion-plugin](https://packagist.org/packages/monsieurbiz/sylius-theme-companion-plugin) | [2.0](monsieurbiz/sylius-theme-companion-plugin/2.0) |  |
-| [monsieurbiz/sylius-ui-elements-plugin](https://packagist.org/packages/monsieurbiz/sylius-ui-elements-plugin) | [0.4](monsieurbiz/sylius-ui-elements-plugin/0.4) |  |
+| [monsieurbiz/sylius-ui-elements-plugin](https://packagist.org/packages/monsieurbiz/sylius-ui-elements-plugin) | [2.0](monsieurbiz/sylius-ui-elements-plugin/2.0) |  |
