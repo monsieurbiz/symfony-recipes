@@ -1,0 +1,10 @@
+{
+    "bundles": {
+        "MonsieurBiz\\SyliusUiElementsPlugin\\MonsieurBizSyliusUiElementsPlugin": [
+            "all"
+        ]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    }
+}
