@@ -27,7 +27,7 @@ Additional recipes can be found on the [Main Recipes Repository](https://github.
 | [monsieurbiz/sylius-no-commerce-plugin](https://packagist.org/packages/monsieurbiz/sylius-no-commerce-plugin) | [1.0](monsieurbiz/sylius-no-commerce-plugin/1.0) |  |
 | [monsieurbiz/sylius-order-history-plugin](https://packagist.org/packages/monsieurbiz/sylius-order-history-plugin) | [1.0](monsieurbiz/sylius-order-history-plugin/1.0) |  |
 | [monsieurbiz/sylius-rich-editor-plugin](https://packagist.org/packages/monsieurbiz/sylius-rich-editor-plugin) | [3.0](monsieurbiz/sylius-rich-editor-plugin/3.0) |  |
-| [monsieurbiz/sylius-robots-txt-plugin](https://packagist.org/packages/monsieurbiz/sylius-robots-txt-plugin) | [0.1](monsieurbiz/sylius-robots-txt-plugin/0.1) |  |
+| [monsieurbiz/sylius-robots-txt-plugin](https://packagist.org/packages/monsieurbiz/sylius-robots-txt-plugin) | [1.1](monsieurbiz/sylius-robots-txt-plugin/1.1) |  |
 | [monsieurbiz/sylius-sales-reports-plugin](https://packagist.org/packages/monsieurbiz/sylius-sales-reports-plugin) | [1.0](monsieurbiz/sylius-sales-reports-plugin/1.0) |  |
 | [monsieurbiz/sylius-scripts-plugin](https://packagist.org/packages/monsieurbiz/sylius-scripts-plugin) | [2.0](monsieurbiz/sylius-scripts-plugin/2.0) |  |
 | [monsieurbiz/sylius-search-plugin](https://packagist.org/packages/monsieurbiz/sylius-search-plugin) | [2.0](monsieurbiz/sylius-search-plugin/2.0) |  |
