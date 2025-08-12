@@ -95,7 +95,8 @@
         ],
         "monsieurbiz/sylius-robots-txt-plugin": [
             "0.1",
-            "1.1"
+            "1.1",
+            "2.0"
         ],
         "monsieurbiz/sylius-sales-reports-plugin": [
             "1.0"
