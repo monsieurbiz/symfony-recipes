@@ -1,0 +1,15 @@
+{
+    "bundles": {
+        "MonsieurBiz\\SyliusAntiSpamPlugin\\MonsieurBizSyliusAntiSpamPlugin": [
+            "all"
+        ]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "env": {
+        "RECAPTCHA3_SCORE_THRESHOLD": 0.5,
+        "RECAPTCHA3_ENABLED": "false",
+        "ALTCHA_ENABLED": "true"
+    }
+}

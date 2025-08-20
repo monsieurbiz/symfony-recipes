@@ -1,0 +1,2 @@
+  * Override existing config files for recaptcha and altcha to use env vars
+    <comment>cp -r vendor/monsieurbiz/sylius-anti-spam-plugin/dist/config config/</comment>
