@@ -15,15 +15,6 @@
                 }
             },
             "files": {
-                "config/packages/doctrine_override.yaml": {
-                    "contents": [
-                        "doctrine:",
-                        "    orm:",
-                        "        validate_xml_mapping: false # See https://github.com/Sylius/Sylius/issues/18304",
-                        ""
-                    ],
-                    "executable": false
-                },
                 "config/packages/monsieurbiz_sylius_cms_block_plugin.yaml": {
                     "contents": [
                         "imports:",
@@ -41,7 +32,7 @@
                     "executable": false
                 }
             },
-            "ref": "74cca4112bace4fcabb7ef9fe4480780584e1992"
+            "ref": "8a1ce52d563cd2fafc157575c98d788f444a595b"
         }
     }
 }
