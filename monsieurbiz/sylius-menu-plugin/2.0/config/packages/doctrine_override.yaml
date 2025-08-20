@@ -1,3 +1,0 @@
-doctrine:
-    orm:
-        validate_xml_mapping: false # See https://github.com/Sylius/Sylius/issues/18304
