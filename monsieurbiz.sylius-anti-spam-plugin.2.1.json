@@ -1,0 +1,72 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-anti-spam-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusAntiSpamPlugin\\MonsieurBizSyliusAntiSpamPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "env": {
+                    "RECAPTCHA3_SCORE_THRESHOLD": 0.5,
+                    "RECAPTCHA3_ENABLED": false,
+                    "ALTCHA_ENABLED": true,
+                    "ALTCHA_SECRET": "CHANGEME"
+                }
+            },
+            "files": {
+                "config/packages/huluti_altcha.yaml": {
+                    "contents": [
+                        "huluti_altcha:",
+                        "    enable: '%env(bool:ALTCHA_ENABLED)%'",
+                        "    hmacKey: '%env(ALTCHA_SECRET)%'",
+                        "    floating: false",
+                        "",
+                        "when@test:",
+                        "    huluti_altcha:",
+                        "        enable: false",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/packages/karser_recaptcha3.yaml": {
+                    "contents": [
+                        "karser_recaptcha3:",
+                        "    site_key: '%env(RECAPTCHA3_KEY)%'",
+                        "    secret_key: '%env(RECAPTCHA3_SECRET)%'",
+                        "    score_threshold: '%env(float:RECAPTCHA3_SCORE_THRESHOLD)%'",
+                        "    enabled: '%env(bool:RECAPTCHA3_ENABLED)%'",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/packages/monsieurbiz_sylius_anti_spam_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    - { resource: \"@MonsieurBizSyliusAntiSpamPlugin/Resources/config/config.yaml\" }",
+                        "",
+                        "services:",
+                        "    # Add the \"monsieurbiz_anti_spam.quarantineable\" tag on the quarantineable entity (not autoconfigure the entity\u2026)",
+                        "    App\\Entity\\Customer\\Customer:",
+                        "        tags: ['monsieurbiz_anti_spam.quarantineable']",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/monsieurbiz_sylius_anti_spam_plugin.yaml": {
+                    "contents": [
+                        "monsieurbiz_sylius_anti_spam_admin:",
+                        "    resource: \"@MonsieurBizSyliusAntiSpamPlugin/Resources/config/routes/admin.yaml\"",
+                        "    prefix: /%sylius_admin.path_name%",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "eaadd33b3648c5a25240316f493913e3ffeb5616"
+        }
+    }
+}

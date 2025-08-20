@@ -9,7 +9,7 @@ Additional recipes can be found on the [Main Recipes Repository](https://github.
 | [monsieurbiz/sylius-advanced-promotion-plugin](https://packagist.org/packages/monsieurbiz/sylius-advanced-promotion-plugin) | [1.0](monsieurbiz/sylius-advanced-promotion-plugin/1.0) |  |
 | [monsieurbiz/sylius-advanced-shipping-plugin](https://packagist.org/packages/monsieurbiz/sylius-advanced-shipping-plugin) | [1.0](monsieurbiz/sylius-advanced-shipping-plugin/1.0) |  |
 | [monsieurbiz/sylius-alert-message-plugin](https://packagist.org/packages/monsieurbiz/sylius-alert-message-plugin) | [1.0-dev](monsieurbiz/sylius-alert-message-plugin/1.0-dev) |  |
-| [monsieurbiz/sylius-anti-spam-plugin](https://packagist.org/packages/monsieurbiz/sylius-anti-spam-plugin) | [1.0-dev](monsieurbiz/sylius-anti-spam-plugin/1.0-dev) |  |
+| [monsieurbiz/sylius-anti-spam-plugin](https://packagist.org/packages/monsieurbiz/sylius-anti-spam-plugin) | [2.1](monsieurbiz/sylius-anti-spam-plugin/2.1) |  |
 | [monsieurbiz/sylius-b2b-plugin](https://packagist.org/packages/monsieurbiz/sylius-b2b-plugin) | [1.0-dev](monsieurbiz/sylius-b2b-plugin/1.0-dev) |  |
 | [monsieurbiz/sylius-better-admin-plugin](https://packagist.org/packages/monsieurbiz/sylius-better-admin-plugin) | [2.0](monsieurbiz/sylius-better-admin-plugin/2.0) |  |
 | [monsieurbiz/sylius-blog-plugin](https://packagist.org/packages/monsieurbiz/sylius-blog-plugin) | [2.0](monsieurbiz/sylius-blog-plugin/2.0) |  |
