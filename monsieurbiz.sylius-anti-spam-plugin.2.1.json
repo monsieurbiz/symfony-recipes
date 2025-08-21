@@ -8,10 +8,7 @@
                     ]
                 },
                 "copy-from-recipe": {
-                    "config/": {
-                        "to": "%CONFIG_DIR%/",
-                        "overwrite": true
-                    }
+                    "config/": "%CONFIG_DIR%/"
                 },
                 "env": {
                     "RECAPTCHA3_SCORE_THRESHOLD": 0.5,
@@ -43,7 +40,7 @@
                     "executable": false
                 }
             },
-            "ref": "4eca7984fe10bb974701a898903aae7a1629b4b8"
+            "ref": "123381f02ebeb9c3886401a2bf2a98b9b963031f"
         }
     }
 }
