@@ -17,7 +17,7 @@
                 },
                 "post-install-output": [
                     "  * Override existing config files for recaptcha and altcha to use env vars",
-                    "    <comment>cp -r vendor/monsieurbiz/sylius-anti-spam-plugin/dist/config config/</comment>"
+                    "    <comment>cp -r vendor/monsieurbiz/sylius-anti-spam-plugin/dist/config/* config/</comment>"
                 ]
             },
             "files": {
@@ -44,7 +44,7 @@
                     "executable": false
                 }
             },
-            "ref": "11631e8e8613db12fafd14b466e10b608b78a330"
+            "ref": "0837fe3bc9c250b48fccf1dd74c61de6b53a4ee9"
         }
     }
 }
