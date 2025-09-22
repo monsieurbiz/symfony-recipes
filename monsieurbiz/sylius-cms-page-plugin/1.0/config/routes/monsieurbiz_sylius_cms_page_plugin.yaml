@@ -5,3 +5,5 @@ monsieurbiz_cms_page_admin:
 monsieurbiz_cms_page_shop:
     resource: "@MonsieurBizSyliusCmsPagePlugin/Resources/config/routing/shop.yaml"
     prefix: /{_locale}
+    requirements:
+        _locale: ^[a-z]{2}(?:_[A-Z]{2})?$

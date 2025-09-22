@@ -8,7 +8,7 @@ monsieurbiz_cms_page_show:
     methods: [GET]
     requirements:
         slug: .+
-        _locale: ^[A-Za-z]{2,4}(_([A-Za-z]{4}|[0-9]{3}))?(_([A-Za-z]{2}|[0-9]{3}))?$
+        _locale: ^[a-z]{2}(?:_[A-Z]{2})?$
     defaults:
         _controller: monsieurbiz_cms_page.controller.page::showAction
         _sylius:
