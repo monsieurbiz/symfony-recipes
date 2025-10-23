@@ -47,7 +47,8 @@
         ],
         "monsieurbiz/sylius-cms-page-plugin": [
             "1.0",
-            "2.0"
+            "2.0",
+            "2.1"
         ],
         "monsieurbiz/sylius-coliship-plugin": [
             "0.1",
