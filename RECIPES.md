@@ -21,7 +21,7 @@ Additional recipes can be found on the [Main Recipes Repository](https://github.
 | [monsieurbiz/sylius-homepage-plugin](https://packagist.org/packages/monsieurbiz/sylius-homepage-plugin) | [2.0](monsieurbiz/sylius-homepage-plugin/2.0) |  |
 | [monsieurbiz/sylius-markerio-plugin](https://packagist.org/packages/monsieurbiz/sylius-markerio-plugin) | [1.0](monsieurbiz/sylius-markerio-plugin/1.0) |  |
 | [monsieurbiz/sylius-master-theme-plugin](https://packagist.org/packages/monsieurbiz/sylius-master-theme-plugin) | [1.0](monsieurbiz/sylius-master-theme-plugin/1.0) |  |
-| [monsieurbiz/sylius-media-manager-plugin](https://packagist.org/packages/monsieurbiz/sylius-media-manager-plugin) | [2.0](monsieurbiz/sylius-media-manager-plugin/2.0) |  |
+| [monsieurbiz/sylius-media-manager-plugin](https://packagist.org/packages/monsieurbiz/sylius-media-manager-plugin) | [3.0](monsieurbiz/sylius-media-manager-plugin/3.0) |  |
 | [monsieurbiz/sylius-menu-plugin](https://packagist.org/packages/monsieurbiz/sylius-menu-plugin) | [2.0](monsieurbiz/sylius-menu-plugin/2.0) |  |
 | [monsieurbiz/sylius-messenger-admin-plugin](https://packagist.org/packages/monsieurbiz/sylius-messenger-admin-plugin) | [0.1](monsieurbiz/sylius-messenger-admin-plugin/0.1) |  |
 | [monsieurbiz/sylius-no-commerce-plugin](https://packagist.org/packages/monsieurbiz/sylius-no-commerce-plugin) | [1.0](monsieurbiz/sylius-no-commerce-plugin/1.0) |  |
