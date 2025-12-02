@@ -1,5 +1,5 @@
 imports:
-    - { resource: "@MonsieurBizSyliusMediaManagerPlugin/Resources/config/config.yaml" }
+    - { resource: "@MonsieurBizSyliusMediaManagerPlugin/config/config.yaml" }
 
 liip_imagine:
     loaders:
@@ -8,4 +8,4 @@ liip_imagine:
                 data_root:
                     - "%sylius_core.public_dir%/media" # Add media folder
 twig:
-    form_themes: ['@MonsieurBizSyliusMediaManagerPlugin/Admin/MediaManager/Form/_theme.html.twig']
+    form_themes: ['@MonsieurBizSyliusMediaManagerPlugin/admin/form/_theme.html.twig']
