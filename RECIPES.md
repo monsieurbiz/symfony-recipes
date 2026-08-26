@@ -19,7 +19,7 @@ Additional recipes can be found on the [Main Recipes Repository](https://github.
 | [monsieurbiz/sylius-contact-request-plugin](https://packagist.org/packages/monsieurbiz/sylius-contact-request-plugin) | [2.0](../../../tree/main/monsieurbiz/sylius-contact-request-plugin/2.0) |  |
 | [monsieurbiz/sylius-dashboard-plugin](https://packagist.org/packages/monsieurbiz/sylius-dashboard-plugin) | [1.0](../../../tree/main/monsieurbiz/sylius-dashboard-plugin/1.0) |  |
 | [monsieurbiz/sylius-homepage-plugin](https://packagist.org/packages/monsieurbiz/sylius-homepage-plugin) | [2.0](../../../tree/main/monsieurbiz/sylius-homepage-plugin/2.0) |  |
-| [monsieurbiz/sylius-markerio-plugin](https://packagist.org/packages/monsieurbiz/sylius-markerio-plugin) | [1.0](../../../tree/main/monsieurbiz/sylius-markerio-plugin/1.0) |  |
+| [monsieurbiz/sylius-markerio-plugin](https://packagist.org/packages/monsieurbiz/sylius-markerio-plugin) | [2.0](../../../tree/main/monsieurbiz/sylius-markerio-plugin/2.0) |  |
 | [monsieurbiz/sylius-master-theme-plugin](https://packagist.org/packages/monsieurbiz/sylius-master-theme-plugin) | [1.0](../../../tree/main/monsieurbiz/sylius-master-theme-plugin/1.0) |  |
 | [monsieurbiz/sylius-media-manager-plugin](https://packagist.org/packages/monsieurbiz/sylius-media-manager-plugin) | [3.0](../../../tree/main/monsieurbiz/sylius-media-manager-plugin/3.0) |  |
 | [monsieurbiz/sylius-menu-plugin](https://packagist.org/packages/monsieurbiz/sylius-menu-plugin) | [2.0](../../../tree/main/monsieurbiz/sylius-menu-plugin/2.0) |  |
