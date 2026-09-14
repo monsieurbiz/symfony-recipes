@@ -1,0 +1,2 @@
+monsieurbiz_search_plugin:
+    resource: "@MonsieurBizSyliusSearchPlugin/config/routing.yaml"
