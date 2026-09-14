@@ -1,6 +1,5 @@
 {
     "bundles": {
-        "AutoMapper\\Symfony\\Bundle\\AutoMapperBundle": ["all"],
         "MonsieurBiz\\SyliusSearchPlugin\\MonsieurBizSyliusSearchPlugin": ["all"]
     },
     "copy-from-recipe": {
