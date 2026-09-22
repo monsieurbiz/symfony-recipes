@@ -1,0 +1,44 @@
+{
+    "manifests": {
+        "monsieurbiz/sylius-search-plugin": {
+            "manifest": {
+                "bundles": {
+                    "MonsieurBiz\\SyliusSearchPlugin\\MonsieurBizSyliusSearchPlugin": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "env": {
+                    "MONSIEURBIZ_SEARCHPLUGIN_ES_HOST": "${ELASTICSEARCH_HOST:-localhost}",
+                    "MONSIEURBIZ_SEARCHPLUGIN_ES_PORT": "${ELASTICSEARCH_PORT:-9200}",
+                    "MONSIEURBIZ_SEARCHPLUGIN_ES_URL": "http://${MONSIEURBIZ_SEARCHPLUGIN_ES_HOST}:${MONSIEURBIZ_SEARCHPLUGIN_ES_PORT}/",
+                    "MONSIEURBIZ_SEARCHPLUGIN_MESSENGER_TRANSPORT_DSN": "doctrine://default"
+                }
+            },
+            "files": {
+                "config/packages/monsieurbiz_sylius_search_plugin.yaml": {
+                    "contents": [
+                        "imports:",
+                        "    - { resource: \"@MonsieurBizSyliusSearchPlugin/config/config.yaml\" }",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/monsieurbiz_sylius_search_plugin.yaml": {
+                    "contents": [
+                        "monsieurbiz_search_shop:",
+                        "    resource: \"@MonsieurBizSyliusSearchPlugin/config/routing/shop.yaml\"",
+                        "    prefix: /{_locale}",
+                        "    requirements:",
+                        "        _locale: \"^[A-Za-z]{2,4}(_([A-Za-z]{4}|[0-9]{3}))?(_([A-Za-z]{2}|[0-9]{3}))?$\"",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "a994fc5abacad72ea15b92b27eab1876abcd0d5c"
+        }
+    }
+}
