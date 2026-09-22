@@ -28,7 +28,8 @@
             "2.1"
         ],
         "monsieurbiz/sylius-b2b-plugin": [
-            "1.0-dev"
+            "1.0-dev",
+            "2.0"
         ],
         "monsieurbiz/sylius-better-admin-plugin": [
             "1.0",
