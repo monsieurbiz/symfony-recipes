@@ -1,0 +1,6 @@
+monsieurbiz_b2b_admin:
+    resource: "@MonsieurBizSyliusB2bPlugin/config/routes/admin.yaml"
+    prefix: /%sylius_admin.path_name%/
+
+monsieurbiz_b2b_shop:
+    resource: "@MonsieurBizSyliusB2bPlugin/config/routes/shop.yaml"
