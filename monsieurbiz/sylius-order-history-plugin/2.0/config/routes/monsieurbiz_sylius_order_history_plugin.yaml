@@ -1,2 +1,3 @@
-imports:
-    resource: '@MonsieurBizSyliusOrderHistoryPlugin/Resources/config/routes.yaml'
+monsieurbiz_order_history_admin:
+    resource: '@MonsieurBizSyliusOrderHistoryPlugin/Resources/config/routes/admin.yaml'
+    prefix: '/%sylius_admin.path_name%/order-history'
